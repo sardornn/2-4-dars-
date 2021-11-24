@@ -1,3 +1,11 @@
+.form{
+  display: inline-flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+
+
 .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
@@ -6,4 +14,99 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+  }
+
+
+  
+  .ping_pong_con{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+  .ping_pong_input:checked  + .ping_pong_con{
+    background-image: url("../images/table-tennis.png");
+    background-size: contain;
+
+  }
+
+
+  
+  .basketbol_con{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+  
+  .basketbol_input:checked  + .basketbol_con{
+    background-image: url("../images/basketball-ball.png");
+    background-size: contain;
+
+  }
+
+   
+  
+  .voleybol_con{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+  .voleybol_input:checked  + .voleybol_con{
+    background-image: url("../images/volleyball-ball.png");
+    background-size: contain;
+
+  }
+
+  
+  .hokkey_con{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+  .hokkey_input:checked  + .hokkey_con{
+    background-image: url("../images/hockey-puck.png");
+    background-size: contain;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .pingpong_con{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  .pingpong_input:disabled  + .pingpong_con{
+    background-image: url("../images/table-tennis.png");
+    background-size: contain;
+    opacity: 50%;
+
   }
