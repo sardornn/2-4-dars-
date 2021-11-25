@@ -110,3 +110,18 @@
     opacity: 50%;
 
   }
+  .basketboll_con{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+  
+  .basketboll_input:disabled  + .basketboll_con{
+    background-color: rgba(0, 0, 0, 0.521);
+    opacity: 50%;
+
+  }
